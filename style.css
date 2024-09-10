@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Courier;
+}
+
+body{
+    background-color:#FBFADA;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.title{
+    margin-top:30px;
+    font-weight: bolder;
+    font-size:3rem;
+    color:#704264;
+    text-shadow: -1px 1px 0 #fffafa,
+                 1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+
+.circle{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin:20px;
+}
+
+.choices{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:90px;
+}
+
+
+
+#rock{
+    background-image: url("rock2-removebg-preview (1).png");
+    background-size: cover;
+}
+
+#paper{
+    background-image: url("images-removebg-preview (14).png");
+    background-size: cover;
+}
+
+#scissors{
+    background-image: url("images-removebg-preview (15).png");
+    background-size: cover;
+}
+
+
+.border{
+    border:8px solid transparent;
+}
+.border:hover{
+    border:10px solid #49243E;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.dis{
+    margin:40px;
+    text-align: center;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-board{
+    background-color: #704264;
+    color:#FFEFEF;
+    height: 60px;
+    width: 250px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border:3px solid #091821;
+    box-shadow: 5px 5px 2px #704264;
+}
+
+.tamsil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:60px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color:#49243E;
+    text-shadow: -1px 1px 0 #fffafa,
+                 0.3px 0.3px 0 #000,
+                  -0.3px -0.3px 0 #000,
+                  -1px -1px 0 #000;
+}
